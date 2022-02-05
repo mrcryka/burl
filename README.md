@@ -22,7 +22,7 @@ func main() {
 	
 	fmt.Println(url.String())
 }
-// Prints out: http://example.com/foo/bar?hello=who+is+this%3F
+// Output: http://example.com/foo/bar?hello=who+is+this%3F
 ```
 
 ## Available operations
@@ -33,7 +33,7 @@ func main() {
 
 	// FromUrl (net/url)
 	baseUrl, _ := url.Parse("http://example.com")
-    fromUrl := burl.FromUrl(baseUrl)
+	fromUrl := burl.FromUrl(baseUrl)
 ```
 ### Path
 ```go
