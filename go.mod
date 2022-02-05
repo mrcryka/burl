@@ -1,4 +1,4 @@
-module burl
+module github.com/mr-cryka/burl
 
 go 1.17
 

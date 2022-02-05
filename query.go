@@ -1,9 +1,10 @@
 package burl
 
 import (
-	"burl/internal/str"
 	"net/url"
 	"strings"
+
+	"github.com/mr-cryka/burl/internal/str"
 )
 
 type QueryParam struct {
@@ -65,7 +66,7 @@ func (u *Burl) SetQueryParamKey(key string) *Burl {
 
 // SetQueryParamSlice sets an array of values for a single query key
 //
-// e.g for a key "colors" and values "red", "green" 
+// e.g for a key "colors" and values "red", "green"
 // the result is ...?colors=red&colors=green&...
 func (u *Burl) SetQueryParamSlice(key string, values ...string) *Burl {
 	queryParams := u.queryParams.params

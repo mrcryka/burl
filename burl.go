@@ -7,7 +7,8 @@ package burl
 
 import (
 	"net/url"
-	"burl/internal/str"
+
+	"github.com/mr-cryka/burl/internal/str"
 )
 
 type Burl struct {

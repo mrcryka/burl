@@ -1,9 +1,10 @@
 package burl
 
 import (
-	"burl/internal/str"
 	"net/url"
 	"strings"
+
+	"github.com/mr-cryka/burl/internal/str"
 )
 
 type pathParts struct {
