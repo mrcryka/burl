@@ -2,7 +2,9 @@
 Burl provides an easy, fluent way of building URLs via chainable methods.
 
 ## How to install
-TBD
+```bash
+go get github.com/mr-cryka/burl
+```
 
 ## Quick start
 ```go
